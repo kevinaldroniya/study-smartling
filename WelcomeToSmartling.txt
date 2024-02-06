@@ -1,0 +1,40 @@
+Smartling
+    - Smartling is a translation technology and service company
+    - Smartling is how many of the world’s largest and most trusted brands manage the localization of their website content, software, apps and documents.
+
+    - Localization, refers to the adaptation of your content to your target market's native language and culture.
+
+    -Your brands content should not only be translated correctly, but also feel native to all consumer markets around the world, whats smartling offer to complete this problem :
+
+    1. Automated Integration
+        instead of manually extracting the translatable content and sending it to a Translation Agency, smartling integrations automatically send your existing and future content to smartling TMS, where it can be securely accessed and translated by your translation provider. once the translation are complete, they can be automatically delivered and displayed in your content platform or on your localized website.
+
+        this automated way of sending content for translation and retrieving the finished translations not only speeds up the process, it also significantly reduce the risk of any human error.
+
+    2. Cloud-based Translation Management System (TMS)
+        the actual translation process takes places in Smartlings Cloud-based Translation Management System
+    3. Professional Translation Service
+
+
+Smartling Core Concept
+    - Account
+        each smartling customer gets one account, and all translation-related activity takes place within the structure of tat account. each account can be configured with settings, people, and projects.
+    
+    - Projects
+        a project is the environment within which translation work is done in Smartling.
+
+    - File
+        a file is a container of content that is recognized as unique once per project, it can be in the form of a source_file or a translated_file
+
+    - Job 
+        within each project, you then create translation orders, which are called Jobs in smartling.
+
+    - Source language
+        the language from which content is being translated
+
+    - Target language
+        the language into which content is being translated
+
+    - Locales and locale codes
+        a locale is a variation of a language as spoken in a particular localization
+        in smartling, a locale is written in the form "Language (Location)". for example, "French (Canada)". a locale code is a code in the form ab-CD representing a particular locale, where 'ab; is the language code and CD is the country code. for the example, the locale code for "French(Canada)" is fr-CA. when integrating with smartling, either via connector or api, it is important to ensure that locales are mapped appropriately. this means that the target language in the smartling project should match the target languages of the connecting software.
